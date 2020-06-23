@@ -21,5 +21,5 @@
 - task parallelism
   - different tasks in a single process that are de-coupled from each other - little dependency on each other
 - data parallelism
-  - classic case of divide and conquer => same operation is performed on different data, and the result of each dataset does not depends on the result of other datasets. Hence no need to and run different threads in sequential manner
+  - classic case of divide and conquer => same operation is performed on different data OR different operations are performed on the same piece of data, and the result of each dataset does not depends on the result of other datasets. Hence no need to and run different threads in sequential manner
   
